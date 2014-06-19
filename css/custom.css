@@ -1,0 +1,30 @@
+/* ===== START YOUR CUSTOMIZATIONS HERE ===== */
+
+.popover-custom{
+	display: inline-block;
+}
+
+.popover-custom .popover {
+  background-color: #FFF;
+  position: relative;
+  display: inline-block;
+  margin: 5px 10px 20px 25px;
+}
+.popover-custom .popover-content > ol,
+.popover-custom .popover-content > ul {
+    font-size: 12px;
+    line-height: 1.37;
+    padding: 0 2px 0 15px;
+}
+
+.popover-custom .popover-content p {
+    padding: 3px;
+}
+
+.btn-group .btn-group-vertical {
+  vertical-align: top !important;
+}
+
+.dropdown-menu .dropdown{
+	z-index: 1020;
+}
